@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snake_ladder{
+    width: 15px;
+    height: 15px;
+    background-color: lightcoral;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.person1 {
+    background-color: green;
+}
+
+.person2 {
+    background-color: blue;
+}
