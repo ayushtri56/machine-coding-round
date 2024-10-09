@@ -1,0 +1,11 @@
+
+.otp_input{
+    display: flex;
+    border: none;
+}
+
+.otp_input > input {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
