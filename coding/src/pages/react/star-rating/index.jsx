@@ -6,7 +6,7 @@ const StarRating = ({ totalStars = 5 }) => {
 
     return (
         <div className={styles.starRating}>
-            {[...Array(totalStars)].map((_, i) => (
+            {Array.from({length: totalStars}).map((_, i) => (
                 <label key={i}>
                     <input
                         type="radio"
@@ -14,7 +14,8 @@ const StarRating = ({ totalStars = 5 }) => {
                         value={i + 1}
                         onClick={() => setRating(i + 1)}
                     />
-                    <span className={`${styles.star} ${i < rating ? styles.filled : ''}`}>★</span>
+                    <span className={`${styles.star} ${i < rating ? styles.filled : ''}`}> ✰ </span>
+                        {/* ★</span> */}
                 </label>
             ))}
         </div>
