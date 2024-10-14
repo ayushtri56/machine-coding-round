@@ -1,0 +1,11 @@
+.container{
+    overflow: scroll;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    border-top: 2px solid grey;
+}
