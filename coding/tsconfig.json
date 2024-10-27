@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/react/stop-watch/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]
